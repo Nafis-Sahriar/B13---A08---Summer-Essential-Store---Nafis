@@ -28,13 +28,11 @@ const ProductCard = ({product}) => {
         </div>
         
 
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex items-center justify-center ">
             <Link href={`/products/${product.id}`}>  <Button variant="outline" className="w-full hover:bg-linear-to-r from-yellow-500 
               hover:via-orange-600 
               hover:to-red-600 hover:text-white hover:font-bold ">View Details</Button> </Link>
-                <Button variant='outline'  className=" hover:bg-linear-to-r from-yellow-500 
-              hover:via-orange-600 
-              hover:to-red-600 hover:text-white hover:font-bold">Add to Cart<FaCartPlus></FaCartPlus></Button>
+                
         </div>
       </div>
     </Card>

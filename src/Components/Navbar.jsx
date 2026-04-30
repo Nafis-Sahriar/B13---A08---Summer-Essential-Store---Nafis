@@ -4,6 +4,7 @@ import { Avatar, Button } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
 import NavLink from "./NavLinks/NavLink";
+import { FaCartShopping } from "react-icons/fa6";
 
 const Navbar = () => {
   const userData = authClient.useSession();
@@ -50,6 +51,14 @@ const Navbar = () => {
             <li>
               <NavLink href={"/my-profile"}>My Profile</NavLink>
             </li>
+            <li>
+              <NavLink href={"/about"}>About</NavLink>
+            </li>
+            <NavLink href={"/cart"}>
+
+                    
+                 <span className="flex items-center justify-center gap-2"> Cart<FaCartShopping /></span>
+                </NavLink>
           </ul>
 
           
@@ -115,6 +124,16 @@ const Navbar = () => {
           <li>
             <NavLink href={"/my-profile"}>Profile</NavLink>
           </li>
+           <li>
+              <NavLink href={"/about"}>About</NavLink>
+            </li>
+            <li>
+              <NavLink href={"/cart"}>
+
+                    
+                 <span className="flex items-center justify-center gap-2"> Cart<FaCartShopping /></span>
+                </NavLink>
+            </li>
         </ul>
       </nav>
     </div>
