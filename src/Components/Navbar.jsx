@@ -3,7 +3,6 @@ import { authClient } from "@/lib/auth-client";
 import { Avatar, Button } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaCartArrowDown } from "react-icons/fa";
 import NavLink from "./NavLinks/NavLink";
 
 const Navbar = () => {
@@ -32,11 +31,7 @@ const Navbar = () => {
                 className="object-cover h-auto w-auto"
               />
 
-              <h3
-                className="font-black text-lg 
-            bg-linear-to-r from-yellow-400 to-orange-500 
-            bg-clip-text text-transparent"
-              >
+              <h3 className="font-black text-lg bg-linear-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
                 Summer Essentials
               </h3>
             </div>
@@ -99,11 +94,9 @@ const Navbar = () => {
               <Button
                 size="sm"
                 onClick={() => authClient.signOut()}
-                className="bg-linear-to-r from-[#F6B73C] via-[#F28C28] to-[#f47215]
-            hover:from-yellow-500 hover:via-orange-600 hover:to-red-600"
-              >
+                className="bg-linear-to-r from-[#F6B73C] via-[#F28C28] to-[#f47215] hover:from-yellow-500 hover:via-orange-600 hover:to-red-600">
                 <span className="hidden sm:block">Sign Out</span>
-                <span className="sm:hidden">Out</span>
+                <span className="sm:hidden">Sign Out</span>
               </Button>
             </div>
           )}
