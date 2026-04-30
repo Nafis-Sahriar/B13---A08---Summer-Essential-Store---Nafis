@@ -4,7 +4,7 @@ const Tips = () => {
     return (
         <div className="max-w-7xl mx-auto px-6 py-24">
   
-  {/* Section Heading */}
+ 
   <div className="text-center mb-14">
     <h2 className="text-5xl font-bold text-[#FF7A00]">
       Summer Tips
@@ -15,10 +15,10 @@ const Tips = () => {
     </p>
   </div>
 
-  {/* Cards Container */}
+ 
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-    {/* Card 1 */}
+   
     <div className="bg-[#F6E6B4] rounded-3xl p-8 shadow-md hover:shadow-xl transition duration-300">
       <div className="text-5xl mb-5"></div>
 
@@ -31,7 +31,7 @@ const Tips = () => {
       </p>
     </div>
 
-    {/* Card 2 */}
+    
     <div className="bg-[#F6E6B4] rounded-3xl p-8 shadow-md hover:shadow-xl transition duration-300">
       <div className="text-5xl mb-5"></div>
 

@@ -40,38 +40,38 @@
 
   {
     "id": 2,
-    "name": "Tropical Print Swim Shorts",
-    "brand": "AquaWave",
-    "price": 25,
-    "rating": 4.5,
-    "stock": 15,
-    "description": "Quick-dry swim shorts with a vibrant tropical pattern.",
-    "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Apparel",
+     "name": "Cosrx Ultra Light Invisible Sunscreen (SPF50 PA++++) - 50 ml",
+    "brand": "CosRX",
+    "price": 10,
+    "rating": 4.9,
+    "stock": 50,
+    "description": "Non-greasy, water-resistant formula for all-day sun protection. Straight from Korea.",
+    "image": "https://i.ibb.co.com/rKQqSyBR/Ultra-Light-Invisible-Sunscreen3.webp",
+    "category": "Skincare",
     "features": [
-      "Quick-dry fabric",
-      "Elastic waistband",
-      "Breathable material",
-      "Side pockets"
+      "SPF 50 protection",
+      "Water resistant",
+      "Non-greasy texture",
+      "Suitable for sensitive skin"
     ],
     "specifications": {
-      "fabric": "Polyester",
-      "fit": "Regular",
-      "weight": "180g",
-      "gender": "Men"
+      "volume": "100ml",
+      "skinType": "All Skin Types",
+      "protection": "UVA/UVB",
+      "weight": "120g"
     },
-    "colors": ["Blue", "Green", "Orange"],
-    "dimensions": "Sizes S-XL",
-    "material": "Polyester Blend",
-    "shipping": "Ships within 24 hours.",
-    "warranty": "7 days exchange policy.",
+    "colors": ["White"],
+    "dimensions": "15cm x 5cm",
+    "material": "Dermatologically Tested Formula",
+    "shipping": "Free shipping over $30.",
+    "warranty": "No warranty applicable.",
     "isFeatured": true,
-    "discount": 5,
-    "tags": ["summer", "swimwear", "beach", "vacation"],
+    "discount": 10,
+    "tags": ["sunscreen", "summer", "skincare", "spf50"],
     "reviews": [
       {
-        "user": "Alex",
-        "comment": "Very comfortable fabric.",
+        "user": "Riya",
+        "comment": "Does not feel oily at all.",
         "rating": 5
       }
     ]
