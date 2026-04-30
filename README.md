@@ -2,7 +2,7 @@
 Welcome to the Summer Essentials Store! A store where you will find all the essentials for a perfect summer. From trendy items to must-have accessories, we have everything you need to make your summer experience Unforgottable.
 
 
-## Click Here - [Live Link](https://summer-store-phi.vercel.app/)
+## Click Here - [Live Link](https://b13-a08-summer-essential-store-nafi.vercel.app/)
 
 
 ### Features
@@ -50,7 +50,8 @@ Welcome to the Summer Essentials Store! A store where you will find all the esse
 - Footer : A simple footer with About , Contact , Terms link and also some social media links. 
 
 
-
+## Conclusion
+The Summer Essentials Store is a comprehensive e-commerce application that provides users with a variety of summer products , user authentication and registration functionality developed mainly with Next JS, React and Tailwind CSS and Better Auth for authentication . 
 
 
 
