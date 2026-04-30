@@ -8,7 +8,7 @@ import { FaCartShopping } from "react-icons/fa6";
 const ProductDetailsPage = async ({ params }) => {
   const { id } = await params;
 
-  const res = await fetch("https://summer-essentials-nafis.vercel.app/data.json",);
+  const res = await fetch("https://b13-a08-summer-essential-store-nafi.vercel.app/data.json",);
   const data = await res.json();
 
   const product = data.find((item) => item.id === parseInt(id));

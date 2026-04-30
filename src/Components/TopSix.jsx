@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const TopSix = async () => {
 
-    const res = await fetch('https://summer-essentials-nafis.vercel.app/data.json');
+    const res = await fetch('https://b13-a08-summer-essential-store-nafi.vercel.app/data.json');
     const data = await res.json();
 
     console.log(data);
