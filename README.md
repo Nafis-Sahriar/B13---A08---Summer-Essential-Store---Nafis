@@ -49,6 +49,8 @@ Welcome to the Summer Essentials Store! A store where you will find all the esse
 - About Us Page : This page contains information about the store, and also some links to contact the developer. 
 - Footer : A simple footer with About , Contact , Terms link and also some social media links. 
 
+- My Profile Page : In this page, user will see his own profile, and also there is a button Edit Profile to edit the profile information . Currently edit profile only supports editing name and image .
+
 
 ## Conclusion
 The Summer Essentials Store is a comprehensive e-commerce application that provides users with a variety of summer products , user authentication and registration functionality developed mainly with Next JS, React and Tailwind CSS and Better Auth for authentication . 
