@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 const AboutPage = () => {
   return (
@@ -39,8 +41,26 @@ const AboutPage = () => {
         <div className="space-y-6 md:col-span-2">
           
                         <div className="bg-[#F6E6B4] rounded-3xl p-8 shadow-md">
-                            <h1 className="text-2xl font-bold text-[#5A3E2B]">Created and Designed By</h1>
-                            <p>Summer Essentials was designed and developed by Nafis - 2nd Year Software Engineering Student of Daffodil International Univeristy</p>
+
+                            <h1 className="text-2xl font-bold text-[#5A3E2B] mb-5">Designed and Developed By</h1>
+
+                            <p><span className="font-bold text-lg  italic mb-2 "> Summer Essentials </span> was Designed and Developed by: </p>
+                            <p className="font-bold text-[#5A3E2B]">Nafis Sahriar</p>
+                            <small>Bsc. in Software Engineering</small>
+                            <p className="text-xs italic">Daffodil International University</p>
+
+                            <div className="flex items-center gap-4 mt-4">
+                                <Link target="_blank" href="https://www.linkedin.com/in/nafis-sahriar-redwan/" className="text-blue-600 hover:underline">
+                                    <FaLinkedin></FaLinkedin>
+                                </Link>
+                                
+                                <Link target="_blank" href="https://github.com/Nafis-Sahriar" className="text-black hover:underline">
+                                    <FaGithub></FaGithub>
+                                </Link>
+                                <Link target="_blank" href="https://www.facebook.com/nafis.sahriar.redwan" className="text-blue-600 hover:underline">
+                                    <FaFacebook></FaFacebook>
+                                </Link>
+                            </div>
                         </div>
         </div>
       </div>

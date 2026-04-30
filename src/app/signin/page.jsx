@@ -15,6 +15,7 @@ import {
 import Link from "next/link";
 import { FaGoogle } from "react-icons/fa";
 import 'animate.css';
+import { toast } from "react-toastify";
 
 export default function SignInPage() 
 {
@@ -33,10 +34,10 @@ export default function SignInPage()
         })
 
         if(error){
-            alert(error.message);
+            toast.error(error.message);
         }
         if(data){
-            alert("Logged in successfully!");
+            toast.success("Logged in successfully!");
         }
 
 

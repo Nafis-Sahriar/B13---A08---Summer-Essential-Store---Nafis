@@ -15,6 +15,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FaGoogle } from "react-icons/fa";
 import 'animate.css';
+import { toast } from "react-toastify";
 
 export default function RegisterPage() 
 {
@@ -41,10 +42,10 @@ export default function RegisterPage()
     // console.log(data,error);
 
     if(error){
-        alert(error.message);
+        toast.error(error.message);
     }
     if(data){
-        alert("Registered successfully! Please log in.");
+        toast.success("Registered successfully! Please log in.");
         router.push("/signin");
     }
 

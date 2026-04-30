@@ -63,7 +63,9 @@ const Footer = () => {
               <ul className="space-y-2 text-sm text-gray-700">
                 <li>
                   <Link
-                    href="https://www.facebook.com/"
+
+                    target="_blank"
+                    href="https://www.facebook.com/nafis.sahriar.redwan"
                     className="hover:text-black transition"
                   >
                     Facebook
@@ -72,19 +74,21 @@ const Footer = () => {
 
                 <li>
                   <Link
-                    href="https://www.instagram.com/"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/nafis-sahriar-redwan/"
                     className="hover:text-black transition"
                   >
-                    Instagram
+                    LinkedIN
                   </Link>
                 </li>
 
                 <li>
                   <Link
-                    href="https://twitter.com/"
+                    target="_blank"
+                    href="https://github.com/Nafis-Sahriar"
                     className="hover:text-black transition"
                   >
-                    Twitter
+                    GitHub
                   </Link>
                 </li>
               </ul>

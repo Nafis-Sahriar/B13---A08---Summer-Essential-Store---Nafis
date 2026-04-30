@@ -1,8 +1,14 @@
 import { Button } from "@heroui/react";
 import React from "react";
 import { FaArrowAltCircleRight } from "react-icons/fa";
+import { toast } from "react-toastify";
+import MoreGuides from "../Buttons/MoreGuides";
 
 const SunscreenGuide = () => {
+
+     
+
+
   return (
     <div className="max-w-7xl mx-auto px-6 py-24">
       <div className="text-center mb-16">
@@ -124,7 +130,7 @@ const SunscreenGuide = () => {
       </div>
         
             <div className="mt-10 text-center">
-                <Button variant="outline">More Guides <FaArrowAltCircleRight /></Button>
+                <MoreGuides></MoreGuides>
             </div>
 
     </div>
