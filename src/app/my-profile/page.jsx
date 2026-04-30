@@ -5,6 +5,8 @@ import { Avatar, Card } from "@heroui/react";
 import Image from "next/image";
 import React from "react";
 
+
+
 const MyProfile = () => {
   const userData = authClient.useSession();
   const user = userData?.data?.user;

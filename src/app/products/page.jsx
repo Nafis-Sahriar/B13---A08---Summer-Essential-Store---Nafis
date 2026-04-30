@@ -2,6 +2,11 @@
 import ProductCard from '@/Components/ProductCard';
 import React from 'react';
 
+export const metadata = {
+    title: "All Products - Summer Store",
+    description: "",
+};
+
 const ProductsPage = async () => {
     const res = await fetch('https://b13-a08-summer-essential-store-nafi.vercel.app/data.json');
     const data = await res.json();

@@ -17,6 +17,8 @@ import { FaGoogle } from "react-icons/fa";
 import 'animate.css';
 import { toast } from "react-toastify";
 
+
+
 export default function RegisterPage() 
 {
 

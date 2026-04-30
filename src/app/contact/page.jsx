@@ -1,5 +1,10 @@
 import React from 'react';
 
+export const metadata = {
+    title: "Contact Us - Summer Store",
+    description: "",
+};
+
 const ContactPage = () => {
     return (
         <div className='min-h-[50vh] w-[90%] mx-auto flex flex-col items-center justify-center'>

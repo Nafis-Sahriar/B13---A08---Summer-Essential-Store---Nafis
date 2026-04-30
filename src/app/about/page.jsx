@@ -3,6 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa6";
 
+export const metadata = {
+    title: "About Us - Summer Store",
+    description: "",
+};
+
 const AboutPage = () => {
   return (
     <div className="w-[90%] mx-auto px-6 py-24 bg-[url('/bground.png')] bg-cover bg-no-repeat bg-center">

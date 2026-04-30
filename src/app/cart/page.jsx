@@ -7,6 +7,8 @@ import React, { useContext } from 'react';
 import { FaCartShopping } from 'react-icons/fa6';
 import { toast } from 'react-toastify';
 
+
+
 const CartPage = () => {
 
         const {cartItems, setCartItems} = useContext(ContextProvider);
