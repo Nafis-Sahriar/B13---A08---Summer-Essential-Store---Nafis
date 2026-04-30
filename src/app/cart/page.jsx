@@ -16,8 +16,10 @@ const CartPage = () => {
         const totalPrice = cartItems.reduce((total, item) => total + item.price, 0);
 
         const handleCheckOut = () => {
+
+            toast.success(`Checkout Successful Quantity: ${cartItems.length} Total Amount: $${totalPrice.toFixed(2)}`);
             setCartItems([]);
-            toast.success("Checkout successful! Thank you for your purchase.");
+            
         }
 
     return (
