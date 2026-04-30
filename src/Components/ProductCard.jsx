@@ -3,13 +3,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { FaCartPlus, FaStar } from 'react-icons/fa';
+import 'animate.css';
 
 const ProductCard = ({product}) => {
 
     // console.log(product.image)
 
     return (
-        <Card className="bg-[#F6E6B4] shadow-lg rounded-3xl ">
+        <Card className="bg-[#F6E6B4] shadow-lg rounded-3xl animate__animated animate__fadeInUp">
       <div className="space-y-5 mt-5">
         <div className="flex items-center relative aspect-square w-full justify-center ">
           <Image src={product.image} fill alt="product" className="rounded-2xl object-cover"/>

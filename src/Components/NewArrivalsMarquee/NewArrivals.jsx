@@ -51,7 +51,7 @@ const products = [
 
 const NewArrivals = () => {
   return (
-    <div className="flex justify-between gap-4 bg-[#F4C83A]   mx-auto mt-10 md:sticky top-16 z-40 py-3 px-5 rounded-lg">
+    <div className="flex justify-between gap-4 bg-[#F4C83A]   mx-auto mt-10 md:sticky top-16 z-40 py-3 px-5 rounded-t-2xl">
 
 
       <button className=" bg-white text-orange-700 font-bold btn border-none">New Arrivals</button>
