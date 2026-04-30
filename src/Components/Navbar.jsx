@@ -5,9 +5,15 @@ import Image from "next/image";
 import Link from "next/link";
 import NavLink from "./NavLinks/NavLink";
 import { FaCartShopping } from "react-icons/fa6";
+import { useContext } from "react";
+import { ContextProvider } from "@/Contexts/ContextProvider";
+
+
 
 const Navbar = () => {
   const userData = authClient.useSession();
+
+  const {cartItems} = useContext(ContextProvider);
 
   // console.log(userData)
 
@@ -17,7 +23,7 @@ const Navbar = () => {
 
   return (
     <div className="sticky top-0  z-50 w-[90%] mx-auto">
-      <nav className="bg-amber-100 shadow-xl rounded-2xl px-4 py-3">
+      <nav className="bg-amber-100 shadow-xl rounded-2xl px-4 py-5">
         
         <div className="flex items-center justify-between gap-4">
         
@@ -57,7 +63,15 @@ const Navbar = () => {
             <NavLink href={"/cart"}>
 
                     
-                 <span className="flex items-center justify-center gap-2"> Cart<FaCartShopping /></span>
+                 <span className="flex relative items-center justify-center gap-2"> 
+                    Cart<FaCartShopping />
+                      <span className="">
+
+                       {
+                          cartItems.length===0 ? "" : <span className="absolute -top-4.5 -right-3 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">{cartItems.length}</span>
+                       }
+                    </span>
+                </span>
                 </NavLink>
           </ul>
 
