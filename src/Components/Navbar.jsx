@@ -15,7 +15,7 @@ const Navbar = () => {
   console.log(user);
 
   return (
-    <div className="sticky top-3 z-50 w-[90%] mx-auto">
+    <div className="sticky top-0  z-50 w-[90%] mx-auto">
       <nav className="bg-amber-100 shadow-xl rounded-2xl px-4 py-3">
         
         <div className="flex items-center justify-between gap-4">

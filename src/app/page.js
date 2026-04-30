@@ -1,4 +1,5 @@
 import Banner from "@/Components/Banner";
+import NewArrivals from "@/Components/NewArrivalsMarquee/NewArrivals";
 import SunscreenGuide from "@/Components/ProductGuide/SunscreenGuide";
 import Tips from "@/Components/Tips";
 import TopBrands from "@/Components/TopBrands";
@@ -10,7 +11,10 @@ export default function Home() {
 
     <div className="w-[90%] mx-auto rounded-5xl">
 
+          <NewArrivals></NewArrivals>
+          
           <Banner></Banner>
+
           <TopSix></TopSix>
           <Tips></Tips>
           <TopBrands></TopBrands>
