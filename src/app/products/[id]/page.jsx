@@ -1,9 +1,11 @@
+import AddToCartButton from "@/Components/Buttons/AddToCartBtn";
 import { Button, Chip } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaCheck, FaStar } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
+import { toast } from "react-toastify";
 
 const ProductDetailsPage = async ({ params }) => {
   const { id } = await params;
@@ -14,6 +16,13 @@ const ProductDetailsPage = async ({ params }) => {
   const product = data.find((item) => item.id === parseInt(id));
 
   // console.log(product)
+
+  const handleBuyNow = () => {
+    toast.info("Buy Now feature is coming soon! Stay tuned.", {
+      position: toast.POSITION.TOP_CENTER,
+      autoClose: 3000,
+    });
+  }
 
   console.log(id);
   return (
@@ -84,7 +93,7 @@ const ProductDetailsPage = async ({ params }) => {
             </div>
           </div>
 
-          {/* FEATURES */}
+          
           <div className="space-y-3">
             <h3 className="text-xl font-semibold text-[#5A3E2B]">Features</h3>
 
@@ -103,10 +112,7 @@ const ProductDetailsPage = async ({ params }) => {
 
           <div className="flex flex-wrap gap-4 pt-4">
 
-            <Button className="bg-linear-to-r from-[#F6B73C] via-[#F28C28] to-[#f47215] hover:scale-103  
-            hover:from-yellow-500 
-            hover:via-orange-600 
-            hover:to-red-600 w-full p-7 md:w-auto font-bold text-xl">Add to Cart <FaCartShopping /></Button>
+           <AddToCartButton></AddToCartButton>
 
             <Link href="/products">
               <Button className="bg-linear-to-r from-[#F6B73C] via-[#F28C28] to-[#f47215] hover:scale-103  

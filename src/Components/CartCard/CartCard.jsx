@@ -15,7 +15,7 @@ const CartCard = ({ item }) => {
   const handleDelete = (id) => {
     const updatedCartItems = cartItems.filter((cartItem) => cartItem.id !== id);
     setCartItems(updatedCartItems);
-    toast.error("Product removed from cart!");
+    toast.error(`"${item.name}" removed from cart!`);
   };
 
 
