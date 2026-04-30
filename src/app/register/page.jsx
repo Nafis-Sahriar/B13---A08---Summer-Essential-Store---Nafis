@@ -48,7 +48,7 @@ export default function RegisterPage()
     }
     if(data){
         toast.success("Registered successfully! Please log in.");
-        router.push("/signin");
+        router.push("/");
     }
 
   }; 
