@@ -1,4 +1,6 @@
+import { Button } from "@heroui/react";
 import React from "react";
+import { FaArrowAltCircleRight } from "react-icons/fa";
 
 const SunscreenGuide = () => {
   return (
@@ -120,6 +122,11 @@ const SunscreenGuide = () => {
           </p>
         </div>
       </div>
+        
+            <div className="mt-10 text-center">
+                <Button variant="outline">More Guides <FaArrowAltCircleRight /></Button>
+            </div>
+
     </div>
   );
 };
