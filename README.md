@@ -32,6 +32,7 @@ Welcome to the Summer Essentials Store! A store where you will find all the esse
 - NextJS Proxy : For handling access in different pages and components after log in and registration, before log in and registration, and also for cart functionality.
 - JSON data File : For Storing product locally, updated with live link of vercel later on to make it work in live link as well.
 - MongoDB : For Storing user data after registration , Currently this is the only use of MongoDB in this project. 
+- ImageBB : For Hosting Images - Json Data file contains image links from ImageBB.
 
 
 
