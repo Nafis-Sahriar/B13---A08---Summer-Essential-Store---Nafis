@@ -99,11 +99,14 @@ const Navbar = () => {
               </Link>
             </div>
           ) : (
-            <div className="flex items-center gap-3">
+
+           
+              <div className="flex items-center gap-3">
               <p className="hidden xl:block text-sm font-semibold text-orange-700">
                 Hi, {user?.name}
               </p>
 
+               <Link href="/my-profile">
               <Avatar>
                 <Avatar.Image
                   alt={user?.name}
@@ -112,7 +115,7 @@ const Navbar = () => {
                 />
 
                 <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
-              </Avatar>
+              </Avatar></Link>
 
               <Button
                 size="sm"
@@ -122,6 +125,9 @@ const Navbar = () => {
                 <span className="sm:hidden">Sign Out</span>
               </Button>
             </div>
+
+           
+            
           )}
         </div>
 
