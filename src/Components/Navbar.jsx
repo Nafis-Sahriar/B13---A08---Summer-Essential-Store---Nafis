@@ -4,6 +4,7 @@ import { Avatar, Button } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaCartArrowDown } from "react-icons/fa";
+import NavLink from "./NavLinks/NavLink";
 
 const Navbar = () => {
 
@@ -37,13 +38,13 @@ const Navbar = () => {
 
         <ul className="hidden md:flex items-center gap-5 text-sm">
           <li>
-            <Link href={"/"}>Home</Link>
+            <NavLink href={"/"}>Home</NavLink>
           </li>
           <li>
-            <Link href={"/products"}>All Products</Link>
+            <NavLink href={"/products"}>All Products</NavLink>
           </li>
           <li>
-            <Link href={"/my-profile"}>My Profile</Link>
+            <NavLink href={"/my-profile"}>My Profile</NavLink>
           </li>
         </ul>
 
