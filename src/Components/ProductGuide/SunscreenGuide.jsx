@@ -1,7 +1,4 @@
-import { Button } from "@heroui/react";
 import React from "react";
-import { FaArrowAltCircleRight } from "react-icons/fa";
-import { toast } from "react-toastify";
 import MoreGuides from "../Buttons/MoreGuides";
 
 const SunscreenGuide = () => {

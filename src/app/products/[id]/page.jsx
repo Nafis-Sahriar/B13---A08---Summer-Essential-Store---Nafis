@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaCheck, FaStar } from "react-icons/fa";
-import { FaCartShopping } from "react-icons/fa6";
 import { toast } from "react-toastify";
 
 const ProductDetailsPage = async ({ params }) => {

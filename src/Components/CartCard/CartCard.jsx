@@ -7,7 +7,7 @@ import React, { useContext } from "react";
 import { toast } from "react-toastify";
 
 const CartCard = ({ item }) => {
-  console.log(item);
+//   console.log(item);
 
 
   const {cartItems, setCartItems} = useContext(ContextProvider);

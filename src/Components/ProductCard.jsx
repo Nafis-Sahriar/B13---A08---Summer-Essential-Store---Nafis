@@ -27,7 +27,7 @@ const ProductCard = ({product}) => {
         toast.success(`${p.name} added to cart!`);
     }
 
-    console.log(cartItems.length)
+    // console.log(cartItems.length)
     // console.log(product.image)
 
     return (

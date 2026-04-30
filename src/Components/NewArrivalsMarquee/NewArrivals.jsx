@@ -45,6 +45,27 @@ const products = [
     description: "A gentle gel cleanser with a low pH formula that effectively removes impurities while maintaining the skin's natural balance.",
     date: "2026-04-20"
   },
+  {
+    id: 7,
+    title: "CeraVe Daily Moisturizing Lotion",
+    image: "https://i.ibb.co.com/20gL4fv4/cerave-logo-top.webp",
+    description: "A gentle gel cleanser with a low pH formula that effectively removes impurities while maintaining the skin's natural balance.",
+    date: "2026-04-20"
+  },
+  {
+    id: 8,
+    title: "La Roche-Posay Anthelios Melt-in Milk Sunscreen SPF 60",
+    image: "https://i.ibb.co.com/Mb5NdW1/La-Roche-Posay-brand-svg.png",
+    description: "A gentle gel cleanser with a low pH formula that effectively removes impurities while maintaining the skin's natural balance.",
+    date: "2026-04-20"
+  },
+  {
+    id: 9,
+    title: "The Ordinary Hyaluronic Acid 2% + B5",
+    image: "https://i.ibb.co.com/fz6XMLkr/ordinary1-2.jpg",
+    description: "A gentle gel cleanser with a low pH formula that effectively removes impurities while maintaining the skin's natural balance.",
+    date: "2026-04-20"
+  },
     
 
 ];

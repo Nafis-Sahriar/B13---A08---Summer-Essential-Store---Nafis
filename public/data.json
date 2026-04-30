@@ -775,6 +775,320 @@
         "rating": 4
       }
     ]
+  },
+  
+  {
+    "id": 21,
+    "name": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 55",
+    "brand": "Neutrogena",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 34,
+    "description": "Lightweight broad-spectrum sunscreen with a non-greasy matte finish perfect for summer days.",
+    "image": "https://i.ibb.co.com/8DMJhygS/Neutagenna.jpg",
+    "category": "Cosmetics",
+    "features": [
+      "Broad-spectrum SPF 55",
+      "Oil-free formula",
+      "Water-resistant up to 80 minutes",
+      "Fast absorbing texture"
+    ],
+    "specifications": {
+      "capacity": "88ml",
+      "weight": "120g",
+      "usage": "Sun Protection",
+      "dishwasherSafe": "No"
+    },
+    "colors": ["White", "Blue"],
+    "dimensions": "15cm x 5cm",
+    "material": "Plastic Tube",
+    "shipping": "Ships within 24 hours.",
+    "warranty": "No warranty available.",
+    "isFeatured": true,
+    "discount": 10,
+    "tags": ["sunscreen", "spf", "summer", "skin care"],
+    "reviews": [
+      {
+        "user": "Sophia",
+        "comment": "Very lightweight and perfect under makeup.",
+        "rating": 5
+      }
+    ]
+  },
+
+  {
+    "id": 22,
+    "name": "CeraVe Daily Moisturizing Lotion",
+    "brand": "CeraVe",
+    "price": 19,
+    "rating": 4.8,
+    "stock": 28,
+    "description": "Hydrating daily lotion with ceramides and hyaluronic acid for soft summer skin.",
+    "image": "https://i.ibb.co.com/Tx4YgmyH/Cerave-Daily-Moisturizing-Lotion-355ml.webp",
+    "category": "Cosmetics",
+    "features": [
+      "24-hour hydration",
+      "Non-comedogenic",
+      "Fragrance-free",
+      "Fast absorbing formula"
+    ],
+    "specifications": {
+      "capacity": "236ml",
+      "weight": "260g",
+      "usage": "Daily Moisturizing",
+      "dishwasherSafe": "No"
+    },
+    "colors": ["White", "Blue"],
+    "dimensions": "18cm x 6cm",
+    "material": "Plastic Bottle",
+    "shipping": "Ships within 48 hours.",
+    "warranty": "No warranty available.",
+    "isFeatured": true,
+    "discount": 12,
+    "tags": ["moisturizer", "cerave", "summer", "hydration"],
+    "reviews": [
+      {
+        "user": "Emma",
+        "comment": "Keeps my skin soft without feeling sticky.",
+        "rating": 5
+      }
+    ]
+  },
+
+  {
+    "id": 23,
+    "name": "Laneige Lip Sleeping Mask Berry",
+    "brand": "Laneige",
+    "price": 24,
+    "rating": 4.9,
+    "stock": 18,
+    "description": "Popular overnight lip mask that deeply hydrates and smooths dry lips.",
+    "image": "https://i.ibb.co.com/cddYLgS/2967ec0c2a399a566f35feba57e9e06d.png",
+    "category": "Cosmetics",
+    "features": [
+      "Berry mix complex",
+      "Long-lasting hydration",
+      "Soft buttery texture",
+      "Sweet berry fragrance"
+    ],
+    "specifications": {
+      "capacity": "20g",
+      "weight": "80g",
+      "usage": "Lip Care",
+      "dishwasherSafe": "No"
+    },
+    "colors": ["Pink", "Red"],
+    "dimensions": "5cm x 5cm",
+    "material": "Glass Jar",
+    "shipping": "Ships within 24 hours.",
+    "warranty": "No warranty available.",
+    "isFeatured": false,
+    "discount": 5,
+    "tags": ["lip mask", "laneige", "beauty", "summer"],
+    "reviews": [
+      {
+        "user": "Olivia",
+        "comment": "My lips feel super soft every morning.",
+        "rating": 5
+      }
+    ]
+  },
+
+  {
+    "id": 24,
+    "name": "Maybelline Fit Me Matte + Poreless Foundation",
+    "brand": "Maybelline",
+    "price": 11,
+    "rating": 4.6,
+    "stock": 40,
+    "description": "Matte lightweight foundation ideal for controlling shine during hot summer days.",
+    "image": "https://i.ibb.co.com/zTfMV7Yf/Review-Maybelline-Fit-Me-Matte-Poreless-Foundation.jpg",
+    "category": "Cosmetics",
+    "features": [
+      "Matte finish",
+      "Lightweight texture",
+      "Pore blurring effect",
+      "Suitable for normal to oily skin"
+    ],
+    "specifications": {
+      "capacity": "30ml",
+      "weight": "100g",
+      "usage": "Face Makeup",
+      "dishwasherSafe": "No"
+    },
+    "colors": ["Natural Beige", "Warm Nude", "Classic Ivory"],
+    "dimensions": "12cm x 4cm",
+    "material": "Glass Bottle",
+    "shipping": "Ships within 48 hours.",
+    "warranty": "No warranty available.",
+    "isFeatured": true,
+    "discount": 15,
+    "tags": ["foundation", "makeup", "summer", "matte"],
+    "reviews": [
+      {
+        "user": "Mia",
+        "comment": "Doesn't get oily even in hot weather.",
+        "rating": 4
+      }
+    ]
+  },
+
+  {
+    "id": 25,
+    "name": "The Ordinary Hyaluronic Acid 2% + B5",
+    "brand": "The Ordinary",
+    "price": 14,
+    "rating": 4.8,
+    "stock": 26,
+    "description": "Hydrating serum that helps retain moisture and keeps skin refreshed all day.",
+    "image": "https://i.ibb.co.com/1VhW7pC/613-CFOwbu-GL-AC-UL495-SR435-495.jpg",
+    "category": "Cosmetics",
+    "features": [
+      "Multi-depth hydration",
+      "Lightweight serum",
+      "Vegan formula",
+      "Quick absorption"
+    ],
+    "specifications": {
+      "capacity": "30ml",
+      "weight": "90g",
+      "usage": "Skin Hydration",
+      "dishwasherSafe": "No"
+    },
+    "colors": ["Clear"],
+    "dimensions": "11cm x 3cm",
+    "material": "Glass Bottle",
+    "shipping": "Ships within 24 hours.",
+    "warranty": "No warranty available.",
+    "isFeatured": false,
+    "discount": 8,
+    "tags": ["serum", "hydration", "skin care", "summer"],
+    "reviews": [
+      {
+        "user": "Ava",
+        "comment": "Perfect hydration boost for dry summer skin.",
+        "rating": 5
+      }
+    ]
+  },
+
+  {
+    "id": 26,
+    "name": "La Roche-Posay Anthelios Melt-in Milk Sunscreen SPF 60",
+    "brand": "La Roche-Posay",
+    "price": 29,
+    "rating": 4.9,
+    "stock": 16,
+    "description": "High-protection sunscreen with a smooth lightweight texture suitable for sensitive skin.",
+    "image": "https://i.ibb.co.com/WW0c0Nkn/22-7.jpg",
+    "category": "Cosmetics",
+    "features": [
+      "SPF 60 protection",
+      "Suitable for sensitive skin",
+      "Water-resistant",
+      "Non-greasy finish"
+    ],
+    "specifications": {
+      "capacity": "100ml",
+      "weight": "140g",
+      "usage": "Sun Protection",
+      "dishwasherSafe": "No"
+    },
+    "colors": ["White", "Orange"],
+    "dimensions": "16cm x 5cm",
+    "material": "Plastic Tube",
+    "shipping": "Ships within 72 hours.",
+    "warranty": "No warranty available.",
+    "isFeatured": true,
+    "discount": 9,
+    "tags": ["spf", "sunscreen", "summer", "sensitive skin"],
+    "reviews": [
+      {
+        "user": "Charlotte",
+        "comment": "Feels premium and works great outdoors.",
+        "rating": 5
+      }
+    ]
+  },
+
+  {
+
+    "id": 27,
+    "name": "Rare Beauty Soft Pinch Liquid Blush",
+    "brand": "Rare Beauty",
+    "price": 23,
+    "rating": 4.8,
+    "stock": 22,
+    "description": "Highly pigmented liquid blush that gives a natural summer glow.",
+    "image": "https://i.ibb.co.com/49NdhRB/format-auto.avif",
+    "category": "Cosmetics",
+    "features": [
+      "Long-lasting wear",
+      "Blendable formula",
+      "Natural dewy finish",
+      "Highly pigmented"
+    ],
+    "specifications": {
+      "capacity": "7.5ml",
+      "weight": "70g",
+      "usage": "Face Makeup",
+      "dishwasherSafe": "No"
+    },
+    "colors": ["Happy", "Joy", "Hope"],
+    "dimensions": "9cm x 3cm",
+    "material": "Plastic Bottle",
+    "shipping": "Ships within 48 hours.",
+    "warranty": "No warranty available.",
+    "isFeatured": true,
+    "discount": 6,
+    "tags": ["blush", "makeup", "beauty", "summer glow"],
+    "reviews": [
+      {
+        "user": "Amelia",
+        "comment": "Tiny amount gives such a beautiful glow.",
+        "rating": 5
+      }
+    ]
+  },
+
+  {
+    "id": 28,
+    "name": "Bioderma Sensibio H2O Micellar Water",
+    "brand": "Bioderma",
+    "price": 18,
+    "rating": 4.7,
+    "stock": 31,
+    "description": "Gentle micellar cleansing water that removes makeup and refreshes skin instantly.",
+    "image": "https://i.ibb.co.com/jk2mMR0J/2-Ef-XJpc-IQzp-V9-R41mdh7-M01a7-S9c-Nf-O39-EPBp6y4.webp",
+    "category": "Cosmetics",
+    "features": [
+      "No-rinse formula",
+      "Suitable for sensitive skin",
+      "Removes waterproof makeup",
+      "Refreshing finish"
+    ],
+    "specifications": {
+      "capacity": "250ml",
+      "weight": "300g",
+      "usage": "Makeup Removal",
+      "dishwasherSafe": "No"
+    },
+    "colors": ["Pink", "Clear"],
+    "dimensions": "19cm x 6cm",
+    "material": "Plastic Bottle",
+    "shipping": "Ships within 24 hours.",
+    "warranty": "No warranty available.",
+    "isFeatured": false,
+    "discount": 11,
+    "tags": ["micellar water", "cleanser", "skin care", "summer"],
+    "reviews": [
+      {
+        "user": "Evelyn",
+        "comment": "Very gentle and refreshing after a long hot day.",
+        "rating": 4
+      }
+    ]
   }
+
 ]
 

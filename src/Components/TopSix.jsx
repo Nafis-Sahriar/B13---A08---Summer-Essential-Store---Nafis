@@ -8,7 +8,7 @@ const TopSix = async () => {
     const res = await fetch('https://b13-a08-summer-essential-store-nafi.vercel.app/data.json');
     const data = await res.json();
 
-    console.log(data);
+    // console.log(data);
     return (
         <div className='w-[90%] mx-auto mt-20 mb-20'>
 

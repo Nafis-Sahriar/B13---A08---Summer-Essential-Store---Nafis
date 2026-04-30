@@ -19,7 +19,7 @@ const Navbar = () => {
 
   const user = userData?.data?.user;
 
-  console.log(user);
+//   console.log(user);
 
   return (
     <div className="sticky top-0  z-50 w-[90%] mx-auto">
