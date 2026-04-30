@@ -14,6 +14,7 @@ import {
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FaGoogle } from "react-icons/fa";
+import 'animate.css';
 
 export default function RegisterPage() 
 {
@@ -56,8 +57,8 @@ export default function RegisterPage()
         })}
 
   return (
-    <Card className="shadow-2xl mx-auto w-[90%] md:w-125 py-10 mt-5 bg-amber-50">
-      <h1 className="font-black text-2xl text-center bg-linear-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent">Register</h1>
+    <Card className="bg-[url('/bground.png')] bg-cover bg-no-repeat bg-center shadow-2xl mx-auto w-full md:w-125 py-10 mt-5 bg-amber-50 animate__animated animate__fadeInUp">
+      <h1 className="font-black text-2xl text-center text-white">Register</h1>
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
         <TextField isRequired name="name" type="text">
@@ -120,8 +121,13 @@ export default function RegisterPage()
           </Button>
         </div>
         
-        <div>
-            <p>Already Registered? <Link href="/signin" className="text-orange-500 hover:text-orange-400 hover:font-bold hover:underline">Sign In</Link></p>
+        <div className="text-center p-5">
+            <p className="text-sm text-gray-600">
+               Already registered?{'  '}
+                <Link href="/signin" className="text-green-700  font-bold hover:text-green-800 hover:font-bold hover:underline ">
+                    Sign In
+                </Link>
+            </p>
         </div>
 
 
