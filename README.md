@@ -60,12 +60,27 @@ Welcome to the Summer Essentials Store! A store where you will find all the esse
 - key learning : Should never paste any sensitive info in public places, Always have to use environment variables and .env file.
 
 
-- 2. Add to cart Functionality : 
+- 2. Add to cart Functionality : Could not implement the add to cart functionality from product details page, I will do it after my semester Final exam.
 
+## Upcoming Features
+- Implementing Add to Cart functionality from product details page and home page.
+- Category based product Filtering in products page. 
+- Search functionality in product page. 
+- Multiple Product selection in cart, and the cart card will show the total item count and total price beside each. 
+- Implementing Layout in products page.
+- Adding "Review" section in product details page.
+- Email verification after registration and before login.
+- Password reset functionality.
+- By Checking out, user will be redirected to a order summary with detaled product information , quantity, total price and button for their order, This page will include real date and time of the order. 
+- A new route will be added as "Summer Sale" where users will find all the products that are on sale with discounted price.
+- To be continued....
 
 
 ## Conclusion
 The Summer Essentials Store is a comprehensive e-commerce application that provides users with a variety of summer products , user authentication and registration functionality developed mainly with Next JS, React and Tailwind CSS and Better Auth for authentication . 
+
+
+© Nafis Sahriar - May'26
 
 
 

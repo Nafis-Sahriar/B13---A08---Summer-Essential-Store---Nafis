@@ -5,6 +5,7 @@ import Link from "next/link";
 import React from "react";
 import { FaCheck, FaStar } from "react-icons/fa";
 import { toast } from "react-toastify";
+import 'animate.css';
 
 const ProductDetailsPage = async ({ params }) => {
   const { id } = await params;

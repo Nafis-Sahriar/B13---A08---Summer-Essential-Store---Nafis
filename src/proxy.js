@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { auth } from './lib/auth'
 import { headers } from 'next/headers'
+
  
 // This function can be marked `async` if using `await` inside
 export async function proxy(request) {
@@ -28,5 +29,5 @@ export async function proxy(request) {
 // export default function proxy(request) { ... }
  
 export const config = {
-  matcher: ['/my-profile', '/products/:path' , '/cart'],
+  matcher: ['/my-profile',  '/cart'],
 }
