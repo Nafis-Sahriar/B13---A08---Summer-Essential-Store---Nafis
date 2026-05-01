@@ -35,7 +35,7 @@ const AboutPage = () => {
 
     <div className="space-y-6 animate__animated animate__fadeInRight">
 
-      <div className="bg-[#F6E6B4] rounded-3xl p-8 shadow-md hover:scale-105 transition-all duration-300">
+      <div className="bg-[#F6E6B4] rounded-3xl p-8 shadow-md hover:scale-105 transition-all duration-300 h-full">
         <h1 className="text-2xl font-bold text-[#5A3E2B]">Our Story</h1>
         <p>This Webpage was created to showcase our summer collection and provide information about our brand.</p>
 
