@@ -83,7 +83,7 @@ const products = [
   {
     id: 12,
     title: "The Ordinary Hyaluronic Acid 2% + B5",
-    image: "https://w7.pngwing.com/pngs/500/94/png-transparent-logo-brand-ray-ban-wayfarer-clubmaster-ray-ban-love-text-trademark.png",
+    image: "https://i.ibb.co.com/Rk9Jr1rT/png-transparent-logo-brand-ray-ban-wayfarer-clubmaster-ray-ban-love-text-trademark.png",
     description: "A gentle gel cleanser with a low pH formula that effectively removes impurities while maintaining the skin's natural balance.",
     date: "2026-04-20"
   },
