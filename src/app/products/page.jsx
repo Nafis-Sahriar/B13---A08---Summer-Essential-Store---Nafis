@@ -24,7 +24,7 @@ const ProductsPage = async () => {
                 {data.map((item, index) => (
                     <div
                          key={index} className={` animate__animated animate__fadeInUp transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02]`}
-                        style={{animationDelay:`${index * 0.5}s`, animationFillMode: "both",}}
+                        style={{animationDelay:`${index * 0.2}s`, animationFillMode: "both",}}
         >
             <ProductCard product={item} />
         </div>

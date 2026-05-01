@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <div className="sticky top-0  z-50 w-[90%] mx-auto">
-      <nav className="bg-amber-100 shadow-xl rounded-2xl px-4 py-5">
+      <nav className="bg-white/10 backdrop-blur-md border border-white/30 shadow-xl rounded-2xl px-4 py-5">
         
         <div className="flex items-center justify-between gap-4">
         
