@@ -54,6 +54,10 @@ const Footer = () => {
                     Terms
                   </Link>
                 </li>
+                 <Link href="/upcomingfeatures" className="hover:text-black transition font-bold text-lg italic hover:underline">
+                Upcoming Features
+              </Link>
+
               </ul>
             </div>
 
@@ -103,13 +107,14 @@ const Footer = () => {
             </p>
 
             <div className="flex items-center gap-4">
-              <Link href="/privacy" className="hover:text-black transition">
+              <Link href="/terms" className="hover:text-black transition">
                 Privacy
               </Link>
 
               <Link href="/terms" className="hover:text-black transition">
                 Terms
               </Link>
+             
             </div>
           </div>
         </div>
