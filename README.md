@@ -26,7 +26,7 @@ Welcome to the Summer Essentials Store! A store where you will find all the esse
 - Hero UI & DaisyUI : For pre-built UI components 
 - React Fast Marquee : For creating a scrolling marquee effect on the homepage to show new arrivals. 
 - Gravity Icons : For adding more icons to the application and enhancing the visual appeal.
-- Google Authentication : Implemented through Better Auth Google authentication for a quick and convenient login experience.
+- Google Cloud Console : Registration and Sign in with google Implemented through Better Auth Google authentication for a quick and convenient login and registration experience.
 - Canva : To Design Banner and Logo
 - Vercel : For hosting the application and making it accessible online.
 - NextJS Proxy : For handling access in different pages and components after log in and registration, before log in and registration, and also for cart functionality.
@@ -63,6 +63,7 @@ Welcome to the Summer Essentials Store! A store where you will find all the esse
 - 2. Add to cart Functionality : Could not implement the add to cart functionality from product details page, I will do it after my semester Final exam.
 
 ## Upcoming Features
+
 - Implementing Add to Cart functionality from product details page and home page.
 - Category based product Filtering in products page. 
 - Search functionality in product page. 
@@ -73,6 +74,9 @@ Welcome to the Summer Essentials Store! A store where you will find all the esse
 - Password reset functionality.
 - By Checking out, user will be redirected to a order summary with detaled product information , quantity, total price and button for their order, This page will include real date and time of the order. 
 - A new route will be added as "Summer Sale" where users will find all the products that are on sale with discounted price.
+- Sign in with Facebook will be added as another option for authentication and registration.
+- User Registration Form will gave more input fields such as phone number, address etc. Following this, the "My Profile" page will also be updated . 
+
 - To be continued....
 
 
