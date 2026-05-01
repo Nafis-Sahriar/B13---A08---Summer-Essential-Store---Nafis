@@ -54,7 +54,7 @@ export default function SignInPage()
           })}
 
   return (
-    <Card className="bg-[url('/bground.png')] bg-cover bg-no-repeat bg-center shadow-2xl mx-auto w-full md:w-125 py-10 mt-5 bg-amber-50 animate__animated animate__fadeInUp">
+    <Card className="bg-[url('/bground.png')] bg-cover bg-no-repeat bg-center shadow-2xl mb-20 mx-auto w-full md:w-125 py-10 mt-5 bg-amber-50 animate__animated animate__fadeInUp">
       <h1 className="font-black text-2xl text-center text-white">Sign In</h1>
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>

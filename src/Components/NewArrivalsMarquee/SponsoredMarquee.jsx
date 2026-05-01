@@ -66,23 +66,51 @@ const products = [
     description: "A gentle gel cleanser with a low pH formula that effectively removes impurities while maintaining the skin's natural balance.",
     date: "2026-04-20"
   },
+  {
+    id: 10,
+    title: "The Ordinary Hyaluronic Acid 2% + B5",
+    image: "https://www.nicepng.com/png/detail/595-5955923_sandali-donna-logo-of-paris-hilton-perfume.png",
+    description: "A gentle gel cleanser with a low pH formula that effectively removes impurities while maintaining the skin's natural balance.",
+    date: "2026-04-20"
+  },
+  {
+    id: 11,
+    title: "The Ordinary Hyaluronic Acid 2% + B5",
+    image: "https://www.pngall.com/wp-content/uploads/13/Louis-Vuitton-Logo-PNG-Images-HD.png",
+    description: "A gentle gel cleanser with a low pH formula that effectively removes impurities while maintaining the skin's natural balance.",
+    date: "2026-04-20"
+  },
+  {
+    id: 12,
+    title: "The Ordinary Hyaluronic Acid 2% + B5",
+    image: "https://w7.pngwing.com/pngs/500/94/png-transparent-logo-brand-ray-ban-wayfarer-clubmaster-ray-ban-love-text-trademark.png",
+    description: "A gentle gel cleanser with a low pH formula that effectively removes impurities while maintaining the skin's natural balance.",
+    date: "2026-04-20"
+  },
+  {
+    id: 13,
+    title: "The Ordinary Hyaluronic Acid 2% + B5",
+    image: "https://www.cetaphil.com/on/demandware.static/Sites-Galderma-US-Site/-/default/dwa1ee173a/images/Cetaphil_Logo_285.png",
+    description: "A gentle gel cleanser with a low pH formula that effectively removes impurities while maintaining the skin's natural balance.",
+    date: "2026-04-20"
+  },
     
 
 ];
 
-const NewArrivals = () => {
+const SponsoredMarquee = () => {
   return (
-    <div className="flex justify-between gap-4 bg-[#F4C83A]   mx-auto mt-10 md:sticky top-19 z-40  px-5 rounded-t-2xl">
+    <div className="flex justify-between gap-4 bg-bg-amber-200   mx-auto mt-10 md:sticky top-19 z-40  rounded-t-2xl">
 
 
-      <button className=" bg-white text-orange-700 font-bold btn border-none">New Arrivals</button>
-      <Marquee pauseOnHover={true} speed={150}>
+      
+      <Marquee  pauseOnHover={true} speed={50} direction="right">
            {
-            products.map((p) => <span className="px-5 flex justify-center items-center gap-2 text-[#ffffff] italic font-bold" key={p.id}> <Image src={p.image} alt={p.title} width={80} height={80} />{p.title}</span>)
+            products.map((p) => <span className="px-5 flex justify-center items-center gap-2 text-[#ffffff] italic font-bold" key={p.id}> <Image src={p.image} alt={p.title} width={80} height={80} /></span>)
            }
-      </Marquee>
+      </Marquee><button className=" bg-white text-orange-700 font-bold btn border-none">Brand Partners </button>
     </div>
   );
 };
 
-export default NewArrivals;
+export default SponsoredMarquee;

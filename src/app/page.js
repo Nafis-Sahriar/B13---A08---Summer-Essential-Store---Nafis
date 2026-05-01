@@ -1,5 +1,6 @@
 import Banner from "@/Components/Banner";
 import NewArrivals from "@/Components/NewArrivalsMarquee/NewArrivals";
+import SponsoredMarquee from "@/Components/NewArrivalsMarquee/SponsoredMarquee";
 import SunscreenGuide from "@/Components/ProductGuide/SunscreenGuide";
 import Tips from "@/Components/Tips";
 import TopBrands from "@/Components/TopBrands";
@@ -24,6 +25,7 @@ export default function Home() {
           <Tips></Tips>
           <TopBrands></TopBrands>
           <SunscreenGuide></SunscreenGuide>
+          <SponsoredMarquee></SponsoredMarquee>
 
           
     </div>

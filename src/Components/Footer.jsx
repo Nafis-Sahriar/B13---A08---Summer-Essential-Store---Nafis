@@ -1,9 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 
+
 const Footer = () => {
   return (
-    <footer className="mt-20">
+    <footer className="">
+      
       <div className=" bg-amber-200 rounded-3xl">
         <div className="px-5 sm:px-8 py-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">

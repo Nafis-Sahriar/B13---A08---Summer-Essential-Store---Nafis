@@ -33,6 +33,7 @@ Welcome to the Summer Essentials Store! A store where you will find all the esse
 - JSON data File : For Storing product locally, updated with live link of vercel later on to make it work in live link as well.
 - MongoDB : For Storing user data after registration , Currently this is the only use of MongoDB in this project. 
 - ImageBB : For Hosting Images - Json Data file contains image links from ImageBB.
+- Animate.css  : For addding animations, Currently used in Navbar, Banner and Product page. 
 
 
 
@@ -51,6 +52,16 @@ Welcome to the Summer Essentials Store! A store where you will find all the esse
 - Footer : A simple footer with About , Contact , Terms link and also some social media links. 
 
 - My Profile Page : In this page, user will see his own profile, and also there is a button Edit Profile to edit the profile information . Currently edit profile only supports editing name and image .
+
+
+## Challenges Faced and Solutions
+- 1. While implementing Google Authentication, Temporarily I pasted the Client id and secret code in my readme file, which caused a fatal github push issue. To solve this, I tried to remove the file from git history, removed the data from readme, but it was not fixing. I never faced this issue before, so I created another github repository and pushed the code with updated readme file without the client id and secret code. 
+
+- key learning : Should never paste any sensitive info in public places, Always have to use environment variables and .env file.
+
+
+- 2. Add to cart Functionality : 
+
 
 
 ## Conclusion
