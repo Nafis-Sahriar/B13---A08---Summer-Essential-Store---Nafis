@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between gap-4">
         
           <Link href={"/"}>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 animate__animated animate__fadeInLeft">
               <Image
                 src={"/logo.png"}
                 alt="logo"
@@ -45,7 +45,7 @@ const Navbar = () => {
           </Link>
 
           
-          <ul className="hidden lg:flex items-center gap-6 text-sm font-medium">
+          <ul className="hidden lg:flex items-center gap-6 text-sm font-medium animate__animated animate__fadeInDown animate__delay-1s">
             <li>
               <NavLink href={"/"}>Home</NavLink>
             </li>
@@ -77,7 +77,7 @@ const Navbar = () => {
 
           
           {!user ? (
-            <div className="flex items-center gap-2 sm:gap-3">
+            <div className="flex items-center gap-2 sm:gap-3 animate__animated animate__fadeInRight">
               <Link href="/signin">
                 <Button
                   size="sm"
@@ -101,7 +101,7 @@ const Navbar = () => {
           ) : (
 
            
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 animate__animated animate__fadeInRight">
               <p className="hidden xl:block text-sm font-semibold text-orange-700">
                 Hi, {user?.name}
               </p>
@@ -132,7 +132,7 @@ const Navbar = () => {
         </div>
 
        
-        <ul className="flex lg:hidden items-center justify-center gap-6 mt-4 pt-3 border-t text-sm font-medium ">
+        <ul className="flex lg:hidden items-center justify-center gap-6 mt-4 pt-3 border-t text-sm font-medium animate__animated animate__fadeInDown animate__delay-1s">
           <li>
             <NavLink href={"/"}>Home</NavLink>
           </li>

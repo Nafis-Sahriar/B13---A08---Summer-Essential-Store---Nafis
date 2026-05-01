@@ -31,8 +31,8 @@ const ProductCard = ({product}) => {
     // console.log(product.image)
 
     return (
-        <Card className="bg-[#F6E6B4] shadow-lg rounded-3xl animate__animated animate__fadeInUp">
-      <div className="space-y-5 mt-5">
+        <Card className="bg-[#F6E6B4] shadow-lg rounded-3xl animate__animated animate__fadeInUp h-full">
+      <div className="space-y-5 mt-5 h-full">
         <div className="flex items-center relative aspect-square w-full justify-center ">
           <Image src={product.image} fill alt="product" className="rounded-2xl object-cover"/>
 
@@ -41,7 +41,7 @@ const ProductCard = ({product}) => {
 
 
         <h2 className='text-2xl font-bold text-orange-800'>{product.name}</h2>
-        <p className="text-sm text-gray-500">{product.description}</p>
+        <p className="text-sm text-gray-500 line-clamp-2">{product.description}</p>
 
         <div className='flex justify-between'>
             <p className="text-lg font-bold">${product.price.toFixed(2)}</p>
@@ -49,7 +49,7 @@ const ProductCard = ({product}) => {
         </div>
         
 
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex items-center justify-between gap-4 mt-auto">
             <Link href={`/products/${product.id}`}>  <Button variant="outline" className="w-full hover:bg-linear-to-r from-yellow-500 
               hover:via-orange-600 
               hover:to-red-600 hover:text-white hover:font-bold ">View Details</Button> </Link>
