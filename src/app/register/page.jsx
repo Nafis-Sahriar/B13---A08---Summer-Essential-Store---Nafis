@@ -57,7 +57,7 @@ export default function RegisterPage()
   const handleGoogleSignUp = async () => {
         const {data, error} = await authClient.signIn.social({
             provider: "google",
-            callbackURL: "/signin"
+            callbackURL: "/"
 
         })}
 
