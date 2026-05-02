@@ -39,6 +39,7 @@ export default function RegisterPage()
         password: userData.password,
         name: userData.name,
         image: userData.image,
+        disableAutoSignIn: true,
     })
 
     // console.log(data,error);
@@ -48,7 +49,7 @@ export default function RegisterPage()
     }
     if(data){
         toast.success("Registered successfully! Please log in.");
-        router.push("/");
+        router.push("/signin");
     }
 
   }; 
@@ -56,7 +57,8 @@ export default function RegisterPage()
   const handleGoogleSignUp = async () => {
         const {data, error} = await authClient.signIn.social({
             provider: "google",
-            callbackURL: "/"
+            callbackURL: "/signin"
+
         })}
 
   return (
