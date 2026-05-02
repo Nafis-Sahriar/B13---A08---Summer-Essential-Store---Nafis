@@ -54,9 +54,13 @@ const Navbar = () => {
               <NavLink href={"/products"}>All Products</NavLink>
             </li>
 
-            <li>
-              <NavLink href={"/my-profile"}>My Profile</NavLink>
-            </li>
+            {
+              user && (
+                <li>
+                  <NavLink href={"/my-profile"}>My Profile</NavLink>
+                </li>
+              )
+            }
             <li>
               <NavLink href={"/about"}>About</NavLink>
             </li>
