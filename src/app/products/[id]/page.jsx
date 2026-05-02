@@ -7,6 +7,21 @@ import { FaCheck, FaStar } from "react-icons/fa";
 import { toast } from "react-toastify";
 import 'animate.css';
 
+const generateMetadata = async({params}) => {
+
+  const { id } = await params;
+  const res = await fetch("https://b13-a08-summer-essential-store-nafi.vercel.app/data.json",);
+  const data = await res.json();
+
+  const product = data.find((item) => item.id === parseInt(id));
+  return {
+    title: `${product.name} - Summer Store`,
+    description: product.description,
+  }
+
+
+}
+
 const ProductDetailsPage = async ({ params }) => {
   const { id } = await params;
 
