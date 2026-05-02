@@ -6,7 +6,7 @@ const products = [
   {
     id: 1,
     title: "CosRx Low pH Good Morning Gel Cleanser",
-    image: "https://theindustry.beauty/wp-content/uploads/2025/06/COSRX.jpg",
+    image: "https://i.ibb.co.com/V0qYP1Vq/images.png",
     description: "A gentle gel cleanser with a low pH formula that effectively removes impurities while maintaining the skin's natural balance.",
     date: "2026-04-20"
   },

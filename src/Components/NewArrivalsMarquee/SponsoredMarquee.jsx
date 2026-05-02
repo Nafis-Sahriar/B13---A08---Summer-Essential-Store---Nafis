@@ -6,7 +6,7 @@ const products = [
   {
     id: 1,
     title: "CosRx Low pH Good Morning Gel Cleanser",
-    image: "https://theindustry.beauty/wp-content/uploads/2025/06/COSRX.jpg",
+    image: "https://i.ibb.co.com/V0qYP1Vq/images.png",
     description: "A gentle gel cleanser with a low pH formula that effectively removes impurities while maintaining the skin's natural balance.",
     date: "2026-04-20"
   },
@@ -69,7 +69,7 @@ const products = [
   {
     id: 10,
     title: "The Ordinary Hyaluronic Acid 2% + B5",
-    image: "https://www.nicepng.com/png/detail/595-5955923_sandali-donna-logo-of-paris-hilton-perfume.png",
+    image: "https://i.ibb.co.com/Mb5NdW1/La-Roche-Posay-brand-svg.png",
     description: "A gentle gel cleanser with a low pH formula that effectively removes impurities while maintaining the skin's natural balance.",
     date: "2026-04-20"
   },
@@ -90,7 +90,7 @@ const products = [
   {
     id: 13,
     title: "The Ordinary Hyaluronic Acid 2% + B5",
-    image: "https://www.cetaphil.com/on/demandware.static/Sites-Galderma-US-Site/-/default/dwa1ee173a/images/Cetaphil_Logo_285.png",
+    image: "https://i.ibb.co.com/qY0VPr32/boj2.jpg",
     description: "A gentle gel cleanser with a low pH formula that effectively removes impurities while maintaining the skin's natural balance.",
     date: "2026-04-20"
   },
