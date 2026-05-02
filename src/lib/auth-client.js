@@ -4,4 +4,4 @@ export const authClient = createAuthClient({
     baseURL: "https://b13-a08-summer-essential-store-nafi.vercel.app/"
 })
 
-export const { signIn, signUp,signOut, useSession } = createAuthClient()
+export const { signIn, signUp,signOut, useSession, disableAutoSignIn } = createAuthClient()
