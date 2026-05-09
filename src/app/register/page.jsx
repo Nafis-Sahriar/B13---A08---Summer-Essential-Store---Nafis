@@ -16,6 +16,7 @@ import { useRouter } from "next/navigation";
 import { FaGoogle } from "react-icons/fa";
 import 'animate.css';
 import { toast } from "react-toastify";
+import { FaFacebook } from "react-icons/fa6";
 
 
 
@@ -60,6 +61,15 @@ export default function RegisterPage()
             callbackURL: "/"
 
         })}
+
+const handleFacebookSignUP = async () => {
+
+    const { data, error } = await authClient.signIn.social({
+        provider: "facebook",
+        callbackURL: "/"
+    });
+
+}
 
   return (
     <Card className="bg-[url('/bground.png')] bg-cover bg-no-repeat bg-center mb-20 shadow-2xl mx-auto w-full md:w-125 py-10 mt-5 bg-amber-50 animate__animated animate__fadeInUp">
@@ -139,12 +149,28 @@ export default function RegisterPage()
         <hr></hr>
         <p className="text-center text-gray-700">or</p>
         <div className="flex gap-2">
-          <Button onClick={handleGoogleSignUp} variant="outline" className="border-none hover:scale-102 shadow-2xl text-gray-700 hover:text-orange-900 bg-linear-to-r from-orange-200 via-yellow-300 to-orange-600 w-full">
-            <FaGoogle></FaGoogle>
-            Continue with Google
-          </Button>
-         
-        </div>
+
+  <Button
+    type="button"
+    onClick={handleGoogleSignUp}
+    variant="outline"
+    className="border-none hover:scale-102 shadow-2xl text-gray-700 hover:text-orange-900 bg-linear-to-r from-orange-200 via-yellow-300 to-orange-600 w-full"
+  >
+    <FaGoogle />
+    Continue with Google
+  </Button>
+
+  <Button
+    type="button"
+    onClick={handleFacebookSignUP}
+    variant="outline"
+    className="border-none hover:scale-102 shadow-2xl text-gray-700 hover:text-orange-900 bg-linear-to-r from-orange-200 via-yellow-300 to-orange-600 w-full"
+  >
+    <FaFacebook />
+    Continue with Facebook
+  </Button>
+
+</div>
       </Form>
     </Card>
   );

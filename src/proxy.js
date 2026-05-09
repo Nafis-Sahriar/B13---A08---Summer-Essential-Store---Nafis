@@ -3,10 +3,10 @@ import { auth } from './lib/auth'
 import { headers } from 'next/headers'
 
  
-// This function can be marked `async` if using `await` inside
+
 export async function proxy(request) {
 
-    // ekhane amake server theke user ache kina dekhte hobe. 
+    
 
     const session = await auth.api.getSession({
         headers: await headers()
@@ -19,14 +19,12 @@ export async function proxy(request) {
    
 
   
-// console.log("Msg From Proxy.")
 
 
 
 }
  
-// Alternatively, you can use a default export:
-// export default function proxy(request) { ... }
+
  
 export const config = {
   matcher: [  '/cart',  "/upcomingfeatures", "/products/:path",],
