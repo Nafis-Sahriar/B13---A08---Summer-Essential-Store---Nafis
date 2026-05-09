@@ -72,11 +72,11 @@ const products = [
 
 const NewArrivals = () => {
   return (
-    <div className="flex justify-between gap-4 bg-[#F4C83A]   mx-auto mt-10 md:sticky top-19 z-40  px-5 rounded-t-2xl">
+    <div className="flex justify-between gap-4 bg-[#F4C83A]   mx-auto mt-10  top-19 z-40  px-5 rounded-t-2xl">
 
 
       <button className=" bg-white text-orange-700 font-bold btn border-none">New Arrivals</button>
-      <Marquee pauseOnHover={true} speed={150}>
+      <Marquee pauseOnHover={true} speed={50}>
            {
             products.map((p) => <span className="px-5 flex justify-center items-center gap-2 text-[#ffffff] italic font-bold" key={p.id}> <Image src={p.image} alt={p.title} width={80} height={80} />{p.title}</span>)
            }

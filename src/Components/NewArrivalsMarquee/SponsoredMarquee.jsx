@@ -104,7 +104,7 @@ const SponsoredMarquee = () => {
 
 
       
-      <Marquee  pauseOnHover={true} speed={50} direction="right">
+      <Marquee  pauseOnHover={true} speed={10} direction="right">
            {
             products.map((p) => <span className="px-5 flex justify-center items-center gap-2 text-[#ffffff] italic font-bold" key={p.id}> <Image src={p.image} alt={p.title} width={80} height={80} /></span>)
            }
